@@ -4,6 +4,8 @@ ChromeOS子系统crostini安装deepin-wine环境完整教程
 >
 >!!!别吐槽脚本写的烂，这根本就是命令堆起来的>_<
 
+# 这东西因为现有配置的环境不同人不同环境，翻车点多，必须在执行脚本以前先在系统设置中将现在正常使用的系统备份到外置tf卡或者chromeos内，而非crostini内。
+
 ### Crostini是什么
 Crostini是谷歌官方定的名字，实为利用KVM技术运行在ChromeOS中的debian minimal魔改版，在ChromeOS stable版本高于80时使用的是debian10，用于加强Chomebook作为生产力的筹码，现在的Chromebook运行的是ChomeOS（Gentoo）+Android9+debian10三合一系统，由于其相比原版debian10的特殊性，故专门开一个仓库解决问题。理论上支持所有升级了最低stable 80版本ChromeOS的X86 Chromebook。
 
