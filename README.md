@@ -34,7 +34,8 @@ apt install xfonts-wqy fonts-wqy-zenhei fonts-wqy-microhei -y
 
 ### 全新安装最新版本deepin-wine环境
 
-估计看到这教程的多半是全新安装的，直接用这个就行，后面的两个不用看了
+~~估计看到这教程的多半是全新安装的，直接用这个就行，后面的两个不用看了~~
+后来测试只有微信能用。。。估计是有些包的版本有问题导致。机器已经卖了就不折腾了orz
 **用法：**
 ```bash
 bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/mylovesaber/deepin-wine-crostini/master/deepin-wine-fresh-installation.sh) >/root/installation.log
